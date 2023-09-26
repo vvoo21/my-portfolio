@@ -1,29 +1,50 @@
 import { NavLink } from 'react-router-dom';
+import { 
+  FaLinkedin,
+  FaGithub,
+  FaMedium
+} from 'react-icons/fa';
+import '../styles/navbar.css';
+
+const ICON_SIZE = 25;
 
 const Navbar = () => {
   const activeStyle = {
     textDecoration: 'underline',
   };
-  const activeClassName = 'underline';
+
+  // URLs
+  const linkedinURL = 'https://www.linkedin.com/in/vaneoliverosp/';
+  const githubURL  = 'https://github.com/vvoo21';
+  const mediumURL = 'https://medium.com/@vaneolipa';
 
   return (
-    <nav>
-      <a href="#/">
-        <NavLink
-            to="/"
-            end
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            My portfolio
-        </NavLink>
-      </a>
+    <nav className='navbar'>
+      <NavLink
+        to="/"
+        end
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        className='logo'
+        >
+          Vanessa O
+      </NavLink>
+      <div className='social-media'>
+        <a href={linkedinURL} target="_blank" rel="noopener noreferrer">
+          <FaLinkedin size={ICON_SIZE} />
+        </a>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <FaGithub size={ICON_SIZE} />
+        </a>
+        <a href={mediumURL} target="_blank" rel="noopener noreferrer">
+          <FaMedium size={ICON_SIZE} />
+        </a>
+      </div>
       <ul className="nav-links">
         <li>
           <NavLink
             to="/about"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className='link'
           >
             About
           </NavLink>
@@ -31,9 +52,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/projects"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className='link'
           >
             Projects
           </NavLink>
@@ -41,9 +61,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/contact"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className='link'
           >
             Contact
           </NavLink>
