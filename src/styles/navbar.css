@@ -1,0 +1,32 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "logo socialMedia"
+    "navLinks navLinks";
+  row-gap: 25px;
+  align-items: center;
+}
+
+.logo {
+  grid-area: logo;
+  font-size: 1.5rem;
+}
+
+.social-media {
+  color: #fff;
+  grid-area: socialMedia;
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.nav-links {
+  grid-area: navLinks;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 0.9rem;
+}
