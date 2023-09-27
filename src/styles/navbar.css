@@ -1,7 +1,7 @@
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "logo socialMedia"
     "navLinks navLinks";
   row-gap: 25px;

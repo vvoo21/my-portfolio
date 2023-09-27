@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #0F1624;
+  background-color: #0f1624;
   min-height: 100vh;
 }
 
@@ -24,10 +24,13 @@ body {
 }
 
 h1 {
-   font-size: 1.5rem;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%),
-              linear-gradient(0deg, #FFFFFF, #FFFFFF);
-  -webkit-background-clip: text; /* Para navegadores WebKit */
-  background-clip: text; /* Para navegadores no WebKit */
-  color: transparent; 
+  font-size: 1.5rem;
+  background:
+    linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%),
+    linear-gradient(0deg, #fff, #fff);
+  /* stylelint-disable */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* stylelint-enable */
+  color: transparent;
 }
