@@ -1,0 +1,28 @@
+.ant-timeline.ant-timeline-label .ant-timeline-item-label {
+  display: flex;
+  width: calc(20% - 12px);
+}
+
+.ant-timeline.ant-timeline-label .ant-timeline-item-tail,
+.ant-timeline.ant-timeline-label .ant-timeline-item-head {
+  inset-inline-start: calc(4% - -15%)
+}
+
+.ant-timeline-item-head.ant-timeline-item-head-blue {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(326.6deg, #13ADC7 21.25%, #6978D1 58.73%, #945DD6 77.47%);
+  box-shadow: 0px 7px 30px 0px #13ADC74D;
+}
+
+.ant-timeline-item-tail {
+  background: #fff;
+}
+
+.ant-timeline.ant-timeline-label .ant-timeline-item-left .ant-timeline-item-content{
+  inset-inline-start: calc(20% - 4px);
+  margin-inline-start: 50px;
+  width: calc(70% - 12px);
+}
