@@ -9,9 +9,6 @@ import '../styles/navbar.css';
 const ICON_SIZE = 25;
 
 const Navbar = () => {
-  const activeStyle = {
-    textDecoration: 'underline',
-  };
 
   // URLs
   const linkedinURL = 'https://www.linkedin.com/in/vaneoliverosp/';
@@ -23,8 +20,7 @@ const Navbar = () => {
       <NavLink
         to="/"
         end
-        style={({ isActive }) => (isActive ? activeStyle : undefined)}
-        className='logo'
+        className='logo link-active'
         >
           Vanessa O
       </NavLink>
@@ -43,17 +39,15 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/about"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            className='link'
+            className='link link-active'
           >
-            About
+            About me
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/projects"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            className='link'
+            className='link link-active'
           >
             Projects
           </NavLink>
@@ -61,8 +55,7 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/contact"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            className='link'
+            className='link link-active'
           >
             Contact
           </NavLink>
