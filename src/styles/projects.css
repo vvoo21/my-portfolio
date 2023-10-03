@@ -1,0 +1,94 @@
+.navbar-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  /* max-width: 350px; */
+  height: auto;
+  padding: 30px;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  gap: 25px;
+  background: linear-gradient(321.62deg, #13ADC7 9.27%, #6978D1 59.96%, #945DD6 85.3%);
+  mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.project-description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 21px;
+  color: #929EB0;
+}
+
+.project-links {
+  display: flex;
+  gap: 5px;
+}
+
+.live-btn {
+  width: 60%;
+  height: auto;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  box-shadow: 0px 7.266289234161377px 21.79886817932129px 0px #00B2FF59;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.github-btn {
+  width: 40%;
+  height: auto;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+  background: linear-gradient(0deg, #0F1624, #0F1624),
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;              
+}
