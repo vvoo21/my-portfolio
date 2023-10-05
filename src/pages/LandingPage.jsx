@@ -14,7 +14,7 @@ const LandingPage = () => {
       <a 
         href={cvPdfUrl}
         download="CV_VanessaOliveros.pdf"
-        className='download-button'
+        className='download-button btns'
       >
         Download CV
       </a>

@@ -80,6 +80,21 @@
   transition: background 0.3s, transform 0.2s;
 }
 
+.btns:active {
+  background: linear-gradient(270deg, #008fa9 0%, #4b5ab3 66.67%, #6c35ae 100%);
+  box-shadow: 0 10px 30px 0 #935ed659;
+  animation-delay: 1ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+
+.btns:hover {
+  background: linear-gradient(270deg, #31cbe5 0%, #8796ef 66.67%, #b27bf4 100%);
+  box-shadow: 0 10px 30px 0 #00b2ff80;
+  animation-timing-function: ease-out;
+  animation-duration: 1ms;
+}
+
 .github-btn {
   width: 40%;
   height: auto;
@@ -93,4 +108,20 @@
   font-weight: 500;
   line-height: 21px;
   text-align: center;
+}
+
+.github-btn:active {
+  background: #fff;
+  border: 1.2px solid #fff;
+  animation-delay: 1ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+
+.github-btn:hover {
+  background:
+    linear-gradient(0deg, #0f1624, #0f1624),
+    linear-gradient(0deg, #fff, #fff);
+  border: 2.4px solid #fff;
+  animation-duration: 0ms;
 }
