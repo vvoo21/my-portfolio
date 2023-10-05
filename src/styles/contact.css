@@ -1,0 +1,44 @@
+.contact-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8em;
+  border: 2px solid #945dd6;
+  border-radius: 8px;
+  margin-bottom: 0.8em;
+  outline: none;
+  background-color: transparent;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 2px solid #13adc7;
+}
+
+.contact-form-submit {
+  width: 50%;
+  align-self: center;
+  height: auto;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  box-shadow: 0 7.266289234161377px 21.79886817932129px 0 #00b2ff59;
+}
+
+.msn-success {
+  text-align: center;
+}
