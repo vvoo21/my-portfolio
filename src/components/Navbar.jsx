@@ -38,14 +38,6 @@ const Navbar = () => {
       <ul className="nav-links">
         <li>
           <NavLink
-            to="/about"
-            className='link link-active'
-          >
-            About me
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/projects"
             className='link link-active'
           >
@@ -54,10 +46,18 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
+            to="/about"
+            className='link link-active'
+          >
+            About me
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/contact"
             className='link link-active'
           >
-            Contact
+            Contact me
           </NavLink>
         </li>
       </ul>
