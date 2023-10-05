@@ -39,11 +39,31 @@
 }
 
 .social-media {
-  color: #fff;
   grid-area: socialMedia;
   display: flex;
   justify-content: flex-end;
   gap: 25px;
+}
+
+.social-media a {
+  color: #fff;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-media a:hover {
+  background: linear-gradient(270deg, #31CBE5 0%, #8796EF 66.67%, #B27BF4 100%);
+}
+
+.social-media a:active {
+  background: linear-gradient(270deg, #31CBE5 0%, #8796EF 66.67%, #B27BF4 100%);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
 }
 
 .nav-links {

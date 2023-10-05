@@ -34,3 +34,9 @@ h1 {
   /* stylelint-enable */
   color: transparent;
 }
+
+.text-contact-me {
+  text-align: center;
+  align-self: center;
+  width: 90%;
+} 
