@@ -78,7 +78,7 @@ const Form = () => {
         required
       ></textarea>
       {formStatus === 'loading' && <Spinner />}
-      {formStatus === 'success' && <p className='msn-success'>Your message has taken flight! We'll be in touch soon. 💌🚀</p>}
+      {formStatus === 'success' && <p className='msn-success'>Your message has taken flight! We&apos;ll be in touch soon. 💌🚀</p>}
       <button className="contact-form-submit btns" type="submit">Get in Touch!</button>
     </form>
   )

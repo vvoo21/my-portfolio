@@ -57,11 +57,11 @@
 }
 
 .social-media a:hover {
-  background: linear-gradient(270deg, #31CBE5 0%, #8796EF 66.67%, #B27BF4 100%);
+  background: linear-gradient(270deg, #31cbe5 0%, #8796ef 66.67%, #b27bf4 100%);
 }
 
 .social-media a:active {
-  background: linear-gradient(270deg, #31CBE5 0%, #8796EF 66.67%, #B27BF4 100%);
+  background: linear-gradient(270deg, #31cbe5 0%, #8796ef 66.67%, #b27bf4 100%);
   animation-timing-function: ease-out;
   animation-duration: 300ms;
 }
