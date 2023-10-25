@@ -55,13 +55,15 @@
     grid-template-areas:
       "hello balls"
       "CVbtn balls";
+
     /* row-gap: 1px; */
-    align-items: center;    
+    align-items: center;
   }
 
   .hello-section {
     grid-area: hello;
     align-self: self-start;
+
     /* border: solid; */
     width: 100%;
   }
@@ -71,6 +73,7 @@
     left: auto;
     transform: none;
     width: 100%;
+
     /* border: solid; */
   }
 
