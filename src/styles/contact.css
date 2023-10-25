@@ -1,3 +1,14 @@
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-contact-me {
+  text-align: center;
+  align-self: center;
+  width: 90%;
+}
+
 .contact-form {
   width: 90%;
   display: flex;
@@ -41,4 +52,19 @@
 
 .msn-success {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* .contact-me-container {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .text-contact-me {
+    width: 60%;
+  }
+  
+  .contact-form {
+    width: 60%;
+  }
 }

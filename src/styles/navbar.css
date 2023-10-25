@@ -75,3 +75,11 @@
 .link {
   font-size: 0.9rem;
 }
+
+@media (min-width: 768px) {
+  .navbar {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo navLinks socialMedia";
+  }  
+}
