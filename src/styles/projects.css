@@ -132,7 +132,7 @@
 }
 
 @media (min-width: 768px) {
-  .project-list{
+  .project-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
