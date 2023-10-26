@@ -4,6 +4,9 @@
 }
 
 .text-contact-me {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
   text-align: center;
   align-self: center;
   width: 90%;
@@ -55,16 +58,23 @@
 }
 
 @media (min-width: 768px) {
-  /* .contact-me-container {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .text-contact-me {
     width: 60%;
+    font-size: 1.25rem;
+    line-height: 27px;
   }
 
   .contact-form {
     width: 60%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.125rem;
+  }
+
+  .contact-form-submit {
+    font-size: 1.125rem;
+    line-height: 27px;
   }
 }

@@ -78,7 +78,23 @@
 
 @media (min-width: 768px) {
   .navbar {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "logo navLinks socialMedia";
   }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .link {
+    font-size: 1.125rem;
+  }
+
+  .logo {
+    font-size: 1.875rem;
+    width: 163px;
+  }
+
 }

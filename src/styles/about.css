@@ -26,3 +26,13 @@
   margin-inline-start: 50px;
   width: calc(70% - 12px);
 }
+
+@media (min-width: 992px) {
+  .ant-timeline-item-label {
+    font-size: 1.5rem;
+  }
+
+  .ant-timeline-item-content {
+    font-size: 1.125rem;
+  }
+}

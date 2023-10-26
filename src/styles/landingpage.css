@@ -22,7 +22,7 @@
 
 .cv-btn {
   width: 170px;
-  height: 55px;
+  height: auto;
   padding: 17px 30px;
   border-radius: 43.6px;
   border: none;
@@ -32,6 +32,7 @@
   position: relative;
   left: 30%;
   bottom: 80px;
+  text-align: center;
 }
 
 @media screen and (min-width: 600px) {
@@ -81,5 +82,17 @@
     grid-area: CVbtn;
     left: auto;
     bottom: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .hello-section-text,
+  .cv-btn {
+    font-size: 1.125rem;
+    line-height: 27px;
+  }
+
+  .cv-btn {
+    width: 226px;
   }
 }

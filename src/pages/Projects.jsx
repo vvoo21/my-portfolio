@@ -4,7 +4,7 @@ import '../styles/projects.css';
 const Projects = () => {
   return (
     <div className="section">
-      <h2 className="navbar-title">Projects</h2>
+      <h2 className="title">Projects</h2>
       <div className="project-list">
         {projectsData.map((project) => (
           <div className="project" key={project.id}>
