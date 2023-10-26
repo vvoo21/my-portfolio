@@ -1,10 +1,10 @@
 [[redirects]]
-  from = "/src/assets/CV_VanessaOliveros.pdf"
-  to = "/src/assets/CV_VanessaOliveros.pdf"
+  from = "./src/assets/CV_VanessaOliveros.pdf"
+  to = "./src/assets/CV_VanessaOliveros.pdf"
   status = 200
-  
+
 [[headers]]
-  for = "/src/assets/CV_VanessaOliveros.pdf"
+  for = "./src/assets/CV_VanessaOliveros.pdf"
   [headers.values]
     Content-Type = "application/pdf"
     Content-Disposition = "attachment; CV_VanessaOliveros.pdf"
