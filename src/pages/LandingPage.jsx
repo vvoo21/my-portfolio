@@ -2,8 +2,8 @@ import '../styles/landingpage.css'
 import balls from '../assets/balls.png'
 
 const LandingPage = () => {
-  const cvPdfUrl = 'src/assets/CV_VanessaOliveros.pdf';
-
+  const cvPdfUrl = '/public/CV_VanessaOliveros.pdf';
+  
   return (
     <div className="section">
       <div className='landing-section'>
