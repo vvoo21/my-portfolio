@@ -6,6 +6,5 @@
 [[headers]]
   for = "/src/assets/CV_VanessaOliveros.pdf"
   [headers.values]
-    Content-Type = "application/pdf"
-    Content-Disposition = "attachment; CV_VanessaOliveros.pdf"
-    Cache-Control = "public, max-age=0"
+    Access-Control-Allow-Origin = "*"
+    Content-Disposition = "attachment"
