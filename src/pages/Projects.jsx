@@ -4,11 +4,11 @@ import '../styles/projects.css';
 const Projects = () => {
   return (
     <div className="section">
-      <h2 className="navbar-title">Projects</h2>
+      <h2 className="title">Projects</h2>
       <div className="project-list">
         {projectsData.map((project) => (
           <div className="project" key={project.id}>
-            <img src={project.image} alt={project.title} style={{width: '100%', height: '100%'}} />
+            <img className="img-project" src={project.image} alt={project.title} />
             <div className="project-info">
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>

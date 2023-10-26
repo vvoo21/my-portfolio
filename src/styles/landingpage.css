@@ -1,3 +1,8 @@
+.landing-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .hello-section {
   display: flex;
   flex-direction: column;
@@ -15,9 +20,9 @@
   transform: translateX(-50%);
 }
 
-.download-button {
+.cv-btn {
   width: 170px;
-  height: 55px;
+  height: auto;
   padding: 17px 30px;
   border-radius: 43.6px;
   border: none;
@@ -26,16 +31,68 @@
   box-shadow: 0 7.266289234161377px 21.79886817932129px 0 #00b2ff59;
   position: relative;
   left: 30%;
-  bottom: 100px;
+  bottom: 80px;
+  text-align: center;
 }
 
 @media screen and (min-width: 600px) {
-  .download-button {
+  .cv-btn {
     bottom: 300px;
-    left: 70%;
+    left: 65%;
   }
 
   .balls {
     width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-section {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hello balls"
+      "CVbtn balls";
+
+    /* row-gap: 1px; */
+    align-items: center;
+  }
+
+  .hello-section {
+    grid-area: hello;
+    align-self: self-start;
+
+    /* border: solid; */
+    width: 100%;
+  }
+
+  .balls {
+    grid-area: balls;
+    left: auto;
+    transform: none;
+    width: 100%;
+
+    /* border: solid; */
+  }
+
+  .cv-btn {
+    grid-area: CVbtn;
+    left: auto;
+    bottom: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .hello-section-text,
+  .cv-btn {
+    font-size: 1.125rem;
+    line-height: 27px;
+  }
+
+  .cv-btn {
+    width: 226px;
   }
 }

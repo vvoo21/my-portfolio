@@ -7,7 +7,7 @@ const About = () => {
   
   return (
     <div className="section">
-      <h2 className="navbar-title">About me</h2>
+      <h2 className="title">About me</h2>
       <Timeline
         mode={mode}
         items={[
