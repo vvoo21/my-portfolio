@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./src/assets/2.png" alt="logo" width="300"  height="auto" />
+  <img src="./src/assets/logo.png" alt="logo" width="300"  height="auto" />
   <br/>
 </div>
 
@@ -63,7 +63,7 @@ Welcome to my Full-stack Portfolio! I'm Vanessa, a dedicated Full-stack develope
 
 ## 🚀 Live Demo<a name="live"></a>
 
-- Check out My Portfolio [here.]()
+- Check out My Portfolio [here.](https://vanessa-oliveros-portfolio.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
