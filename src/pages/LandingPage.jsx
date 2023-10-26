@@ -2,7 +2,7 @@ import '../styles/landingpage.css'
 import balls from '../assets/balls.png'
 
 const LandingPage = () => {
-  const cvPdfUrl = '/public/CV_VanessaOliveros.pdf';
+  const cvPdfUrl = '/CV_VanessaOliveros.pdf';
   
   return (
     <div className="section">
